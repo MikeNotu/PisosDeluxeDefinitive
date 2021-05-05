@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using PisosDeluxeDefinitive.Models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using PisosDeluxeDefinitive.Models;
 
 namespace PisosDeluxeDefinitive.Data
 {
@@ -18,5 +18,9 @@ namespace PisosDeluxeDefinitive.Data
         public DbSet<SpecialTags> SpecialTags { get; set; }
         public DbSet<Products> Products { get; set; }
 
+        public DbSet<Appointments> Appointments { get; set; }
+        public DbSet<ProductsSelectedForAppointment> ProductsSelectedForAppointment { get; set; }
+
+        //public DbSet<ApplicationUser> ApplicationUser { get; set; }
     }
 }

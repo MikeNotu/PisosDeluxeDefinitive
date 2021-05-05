@@ -184,6 +184,27 @@ namespace PisosDeluxeDefinitive.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
+            modelBuilder.Entity("PisosDeluxeDefinitive.Models.Appointments", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<DateTime>("AppointmentDate");
+
+                    b.Property<string>("CustomerEmail");
+
+                    b.Property<string>("CustomerName");
+
+                    b.Property<string>("CustomerPhoneNumber");
+
+                    b.Property<bool>("isConfirmed");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Appointments");
+                });
+
             modelBuilder.Entity("PisosDeluxeDefinitive.Models.Products", b =>
                 {
                     b.Property<int>("Id")
@@ -211,6 +232,25 @@ namespace PisosDeluxeDefinitive.Data.Migrations
                     b.HasIndex("SpecialTagsID");
 
                     b.ToTable("Products");
+                });
+
+            modelBuilder.Entity("PisosDeluxeDefinitive.Models.ProductsSelectedForAppointment", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<int>("AppointmentId");
+
+                    b.Property<int>("ProductId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AppointmentId");
+
+                    b.HasIndex("ProductId");
+
+                    b.ToTable("ProductsSelectedForAppointment");
                 });
 
             modelBuilder.Entity("PisosDeluxeDefinitive.Models.ProductTypes", b =>
@@ -296,6 +336,19 @@ namespace PisosDeluxeDefinitive.Data.Migrations
                     b.HasOne("PisosDeluxeDefinitive.Models.SpecialTags", "SpecialTags")
                         .WithMany()
                         .HasForeignKey("SpecialTagsID")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("PisosDeluxeDefinitive.Models.ProductsSelectedForAppointment", b =>
+                {
+                    b.HasOne("PisosDeluxeDefinitive.Models.Appointments", "Appointments")
+                        .WithMany()
+                        .HasForeignKey("AppointmentId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("PisosDeluxeDefinitive.Models.Products", "Products")
+                        .WithMany()
+                        .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
