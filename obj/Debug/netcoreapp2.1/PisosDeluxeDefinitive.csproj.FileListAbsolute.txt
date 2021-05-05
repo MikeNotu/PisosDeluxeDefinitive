@@ -54,3 +54,4 @@ C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\A
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\SpecialTags\Details.cshtml.g.cs
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\SpecialTags\Edit.cshtml.g.cs
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\SpecialTags\Index.cshtml.g.cs
+C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Products\Index.cshtml.g.cs
