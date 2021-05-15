@@ -10,9 +10,11 @@ using Microsoft.AspNetCore.Hosting.Internal;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PisosDeluxeDefinitive.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace PisosDeluxeDefinitive.Controllers
 {
+    [Authorize(Roles = SD.SuperAdminEndUser)]
     [Area("Admin")]
     public class ProductsController : Controller
     {

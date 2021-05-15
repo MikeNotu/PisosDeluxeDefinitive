@@ -98,3 +98,5 @@ C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\A
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Index.cshtml.g.cs
+C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Edit.cshtml.g.cs
+C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Delete.cshtml.g.cs

@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using PisosDeluxeDefinitive.Data;
 using PisosDeluxeDefinitive.Models;
+using PisosDeluxeDefinitive.Utility;
 
 namespace PisosDeluxeDefinitive.Areas.Admin.Controllers
 {
+    [Authorize(Roles = SD.SuperAdminEndUser)]
     [Area("Admin")]
     public class ProductTypesController : Controller
     {

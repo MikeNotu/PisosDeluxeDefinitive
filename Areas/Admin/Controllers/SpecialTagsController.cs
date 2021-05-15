@@ -6,9 +6,12 @@ using PisosDeluxeDefinitive.Data;
 using PisosDeluxeDefinitive.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
+using PisosDeluxeDefinitive.Utility;
 
 namespace PisosDeluxeDefinitive.Areas.Admin.Controllers
 {
+    [Authorize(Roles = SD.SuperAdminEndUser)]
     [Area("Admin")]
     public class SpecialTagsController : Controller
     {

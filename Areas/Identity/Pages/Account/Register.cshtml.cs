@@ -14,7 +14,7 @@ using PisosDeluxeDefinitive.Utility;
 
 namespace PisosDeluxeDefinitive.Areas.Identity.Pages.Account
 {
-    [AllowAnonymous]
+    [Authorize(Roles = SD.SuperAdminEndUser)]
     public class RegisterModel : PageModel
     {
         private readonly SignInManager<IdentityUser> _signInManager;
