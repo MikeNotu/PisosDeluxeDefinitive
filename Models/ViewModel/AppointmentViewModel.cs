@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PisosDeluxeDefinitive.Models.ViewModel
 {
-    public class AppointmentsViewModel
+    public class AppointmentViewModel
     {
         public List<Appointments> Appointments { get; set; }
 
