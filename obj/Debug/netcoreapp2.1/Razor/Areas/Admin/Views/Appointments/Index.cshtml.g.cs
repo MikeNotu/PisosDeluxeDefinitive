@@ -63,7 +63,7 @@ using PisosDeluxeDefinitive.Models;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(70, 4559, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c9c022dd3abd41f381908e6724763e94", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "33c157d2214a4dbd9c86583c976a609a", async() => {
                 BeginContext(89, 161, true);
                 WriteLiteral("\r\n    <br /><br />\r\n    <h2 class=\"text-info\">Appointment List</h2>\r\n    <br />\r\n\r\n    <div style=\"height:150px; background-color:aliceblue\" class=\"container\">\r\n");
                 EndContext();
@@ -279,7 +279,7 @@ using PisosDeluxeDefinitive.Models;
                 WriteLiteral("\r\n                    </td>\r\n                    <td>\r\n                        ");
                 EndContext();
                 BeginContext(4219, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c36a5acc393e4ffda51d712c62fcf9eb", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("partial", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "cb5fb53bfbd948808641d2b2925ec677", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper>();
@@ -313,7 +313,7 @@ __Microsoft_AspNetCore_Mvc_TagHelpers_PartialTagHelper.Model = item.Id;
                 WriteLiteral("        </table>\r\n    </div>\r\n    ");
                 EndContext();
                 BeginContext(4376, 244, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0ccbbe642f9c4867bc7034a05b213e09", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("div", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d80145c8c7a74af38120622f45d6e164", async() => {
                 }
                 );
                 __PisosDeluxeDefinitive_TagHelpers_PageLinkTagHelper = CreateTagHelper<global::PisosDeluxeDefinitive.TagHelpers.PageLinkTagHelper>();
