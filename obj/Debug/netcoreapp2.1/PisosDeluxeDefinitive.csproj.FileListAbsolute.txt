@@ -102,3 +102,5 @@ C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\A
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\AdminUsers\Delete.cshtml.g.cs
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Index.cshtml.g.cs
 C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Edit.cshtml.g.cs
+C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Details.cshtml.g.cs
+C:\Users\Mike\source\repos\PisosDeluxeDefinitive\obj\Debug\netcoreapp2.1\Razor\Areas\Admin\Views\Appointments\Delete.cshtml.g.cs
